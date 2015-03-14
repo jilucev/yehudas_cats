@@ -37,7 +37,10 @@ module.exports.routes = {
   },
   '/setup-test': {
     view: 'setup-test'
-  }  
+  },
+  'reference': {
+    view : 'homepage'
+  } 
 
   /***************************************************************************
   *                                                                          *
