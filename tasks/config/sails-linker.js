@@ -149,8 +149,8 @@ module.exports = function(grunt) {
 
 		devJsJade: {
 			options: {
-				startTag: '// SCRIPTS',
-				endTag: '// SCRIPTS END',
+				startTag: '//- SCRIPTS',
+				endTag: '//- SCRIPTS END',
 				fileTmpl: 'script(src="%s")',
 				appRoot: '.tmp/public'
 			},
@@ -161,8 +161,8 @@ module.exports = function(grunt) {
 
 		devJsRelativeJade: {
 			options: {
-				startTag: '// SCRIPTS',
-				endTag: '// SCRIPTS END',
+				startTag: '//- SCRIPTS',
+				endTag: '//- SCRIPTS END',
 				fileTmpl: 'script(src="%s")',
 				appRoot: '.tmp/public',
 				relative: true
@@ -174,8 +174,8 @@ module.exports = function(grunt) {
 
 		prodJsJade: {
 			options: {
-				startTag: '// SCRIPTS',
-				endTag: '// SCRIPTS END',
+				startTag: '//- SCRIPTS',
+				endTag: '//- SCRIPTS END',
 				fileTmpl: 'script(src="%s")',
 				appRoot: '.tmp/public'
 			},
@@ -186,8 +186,8 @@ module.exports = function(grunt) {
 
 		prodJsRelativeJade: {
 			options: {
-				startTag: '// SCRIPTS',
-				endTag: '// SCRIPTS END',
+				startTag: '//- SCRIPTS',
+				endTag: '//- SCRIPTS END',
 				fileTmpl: 'script(src="%s")',
 				appRoot: '.tmp/public',
 				relative: true
@@ -199,8 +199,8 @@ module.exports = function(grunt) {
 
 		devStylesJade: {
 			options: {
-				startTag: '// STYLES',
-				endTag: '// STYLES END',
+				startTag: '//- STYLES',
+				endTag: '//- STYLES END',
 				fileTmpl: 'link(rel="stylesheet", href="%s")',
 				appRoot: '.tmp/public'
 			},
@@ -212,8 +212,8 @@ module.exports = function(grunt) {
 
 		devStylesRelativeJade: {
 			options: {
-				startTag: '// STYLES',
-				endTag: '// STYLES END',
+				startTag: '//- STYLES',
+				endTag: '//- STYLES END',
 				fileTmpl: 'link(rel="stylesheet", href="%s")',
 				appRoot: '.tmp/public',
 				relative: true
@@ -226,8 +226,8 @@ module.exports = function(grunt) {
 
 		prodStylesJade: {
 			options: {
-				startTag: '// STYLES',
-				endTag: '// STYLES END',
+				startTag: '//- STYLES',
+				endTag: '//- STYLES END',
 				fileTmpl: 'link(rel="stylesheet", href="%s")',
 				appRoot: '.tmp/public'
 			},
@@ -238,8 +238,8 @@ module.exports = function(grunt) {
 
 		prodStylesRelativeJade: {
 			options: {
-				startTag: '// STYLES',
-				endTag: '// STYLES END',
+				startTag: '//- STYLES',
+				endTag: '//- STYLES END',
 				fileTmpl: 'link(rel="stylesheet", href="%s")',
 				appRoot: '.tmp/public',
 				relative: true
@@ -252,8 +252,8 @@ module.exports = function(grunt) {
 		// Bring in JST template object
 		devTplJade: {
 			options: {
-				startTag: '// TEMPLATES',
-				endTag: '// TEMPLATES END',
+				startTag: '//- TEMPLATES',
+				endTag: '//- TEMPLATES END',
 				fileTmpl: 'script(type="text/javascript", src="%s")',
 				appRoot: '.tmp/public'
 			},
