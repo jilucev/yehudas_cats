@@ -36,7 +36,8 @@ module.exports.routes = {
     view: 'homepage'
   },
   '/setup-test': {
-    view: 'setup-test'
+    controller: 'AdminController',
+    action: 'findAllAdmins'
   },
   'reference': {
     view : 'homepage'

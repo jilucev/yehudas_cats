@@ -7,7 +7,13 @@ block body
     .col.s12.m4.l4 Thingie
       a.waves-effect.waves-light.btn Yup
     .col.s12.m4.l4 Yours
-    .col.s12.m4.l4 Cats
+    .col.s12.m4.l4 
+      each admin in admins
+        if admin.name
+          .col.s12.m12.l12
+            = admin.id + ', '
+            = admin.name + ' '
+            = admin.last
 
   .row
     .col.s12.m4
